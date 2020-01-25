@@ -672,4 +672,5 @@ endif
 #### TWRP/OrangeFox ####
 
 PRODUCT_COPY_FILES += \
+    device/google/wahoo/twrp.fstab:recovery/root/etc/twrp.fstab \
     device/google/wahoo/recovery/root/init/init.recovery.usb.rc:root/init.recovery.usb.rc
