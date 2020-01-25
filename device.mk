@@ -668,3 +668,8 @@ ifneq (,$(filter userdebug eng, $(TARGET_BUILD_VARIANT)))
   PRODUCT_PROPERTY_OVERRIDES += \
       persist.vendor.usb.usbradio.config=diag
 endif
+
+#### TWRP/OrangeFox ####
+
+PRODUCT_COPY_FILES += \
+    device/google/wahoo/recovery/root/init/init.recovery.usb.rc:root/init.recovery.usb.rc
