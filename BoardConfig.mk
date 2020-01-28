@@ -187,6 +187,8 @@ TW_DEFAULT_LANGUAGE := en
 TW_INCLUDE_NTFS_3G := true
 TW_THEME := portrait_hdpi
 TW_SCREEN_BLANK_ON_BOOT := false
+TW_USE_TOOLBOX := true
+TW_INCLUDE_REPACKTOOLS := true
 
 # exFAT FS Support
 TW_INCLUDE_FUSE_EXFAT := true
